@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "lint": "standard --fix \"src/**/*.js\" \"test/**/*.js\" ",
+    "lint": "standard --fix \"src/**/*.js\" ",
     "preversion": "npm run test:all",
     "test": "jest",
-    "test:all": "npm run lint && npm run test:typescript && npm run test",
+    "test:all": "npm run lint && npm run test",
     "test:coverage": "covert test/*.js"
   },
   "files": [
