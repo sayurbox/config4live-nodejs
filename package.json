@@ -14,16 +14,19 @@
     "src/"
   ],
   "license": "MIT",
-  "devDependencies": {
+  "dependecies": {
     "@grpc/proto-loader": "^0.5.5",
+    "grpc": "^1.24.3",
+    "lru-cache": "^6.0.0",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
     "codecov": "^3.8.0",
     "covert": "^1.1.1",
-    "grpc": "^1.24.3",
     "jest": "^26.6.1",
     "logdown": "^3.3.1",
-    "lru-cache": "^6.0.0",
-    "node-cache": "^5.1.2",
-    "standard": "^16.0.0"
+    "standard": "^16.0.0",
+    "node-cache": "^5.1.2"
   },
   "jest": {
     "roots": [
