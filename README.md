@@ -1,3 +1,5 @@
+# ARCHIVED - moved to internal monorepo
+
 [![Build Status](https://travis-ci.org/sayurbox/config4live-nodejs.svg?branch=master)](https://travis-ci.org/sayurbox/config4live-nodejs)
 
 # Config4live-nodejs
